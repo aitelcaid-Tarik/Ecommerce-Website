@@ -1,0 +1,210 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #262626;
+	font-family: sans-serif;
+	
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+
+}
+.ulmarg{
+	margin-right: -85px;
+
+}
+.space{
+	height: 10px;
+}
+
+.hr1{
+	width: 10%;
+	background-color: #0ec09c;
+	height: 2px;
+}
+
+.hr2{
+	width: 10%;
+	background-color: #0ec09c;
+	height: 1px;
+}
+
+.hr3{
+	width: 30%;
+	background-color: #0ec09c;
+	height: 1px;
+}
+
+section .row{
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+#homme,#femme,#enfant{
+	background-color: #f6f6f6;
+}
+
+
+
+.p1{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+#services i{
+	color: mediumseagreen;
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+.hspace{
+	padding-top: 50px;
+}
+
+.hspace2{
+	padding-top: 20px;
+}
+
+#team img{
+	border-radius: 50%;
+}
+
+#team h5{
+	padding-top: 15px;
+}
+
+.dspace{
+	padding-left: 230px;
+}
+
+
+#contactez-nous{
+	background-color: #f6f6f6;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+#contactez-nous i{
+	color: #0ec09c;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+#contactez-nous button{
+	background-color: transparent;
+	border: 1px solid #0ec09c;
+	border-radius: 5px;
+	color: #0ec09c;
+}
+
+#contactez-nous button:hover{
+	color: white;
+	background-color: #0ec09c;
+}
+
+
+textarea{
+	resize: none;
+}
+
+footer{
+	background-color: #0ec09c;
+
+}
+footer i{
+	color: white;
+	font-size: 50px;
+	padding: 10px;
+
+}
+
+
+
+.container1{
+	
+	margin: O auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 90px;
+
+}
+.container1 .box
+{
+	position: relative;
+	width: 270px;
+	height: 270px;
+	background: #ff0;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.container1 .box .imgBox{
+	position: relative;
+	overflow: hidden;
+}
+
+.container1 .box .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;
+}
+
+.container1 .box:hover .imgBox img{
+	transform: scale(1.2);
+}
+
+.container1 .box .details{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.5);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+.container1 .box:hover .details{
+	transform: scaleY(1)
+
+}
+
+.container1 .box .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+
+.container1 .box .details .content h2{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #ff0;
+
+}
+
+.container1 .box .details .content p{
+	margin: 10px 0 0;
+	padding: 0;
+
+}
+
+.navbar a {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.navbar a i{
+	padding-left: 3px;
+}
+
+.navbar .classft{
+	font-size: 20px;
+	margin-left: -50px;
+}
+

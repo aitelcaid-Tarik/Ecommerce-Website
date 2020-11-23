@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: sans-serif;
+	
+}
+div{
+	font-family: 'Roboto', sans-serif;
+
+}
+.hr1{
+	width: 10%;
+	background-color: #0ec09c;
+	height: 1px;
+}
+
+.container{
+	padding-top: 10px;
+}
+
+.container .row1:hover img{
+	transform: scale(1.1);
+}
+
